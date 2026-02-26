@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Main - Experimental validation framework for sliding window analytics.W
+ * Main - Experimental validation framework for sliding window analytics.
  */
 public class Main {
 
