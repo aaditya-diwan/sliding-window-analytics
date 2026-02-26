@@ -3,6 +3,9 @@ package com.assignment;
 import java.util.Deque;
 import java.util.ArrayDeque;
 
+/**
+ * MonotonicDeque - An index-based deque maintaining monotonic ordering for efficient extrema queries.
+ */
 public class MonotonicDeque {
 
    
@@ -12,6 +15,12 @@ public class MonotonicDeque {
 
     private boolean isMaxDeque;
 
+    /**
+     * Constructs a MonotonicDeque with specified configuration.
+     *
+     * @param data reference to the circular buffer containing stream values
+     * @param isMaxDeque true for maximum tracking (decreasing order), false for minimum (increasing order)
+     */
     public MonotonicDeque(double[] data, boolean isMaxDeque) {
         this.data = data;
         this.isMaxDeque = isMaxDeque;
